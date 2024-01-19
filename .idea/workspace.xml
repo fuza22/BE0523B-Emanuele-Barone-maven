@@ -4,10 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bf5dcac-0dfd-469c-a307-b92c4c3d7105" name="Changes" comment="maven">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/m1/d4/Shop.java" afterDir="false" />
+    <list default="true" id="7bf5dcac-0dfd-469c-a307-b92c4c3d7105" name="Changes" comment="esercizio w2 d4">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/m1/d5/Catalogo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/m1/d5/DatiCartacei.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/m1/d5/Genere.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/m1/d5/Libri.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/m1/d5/Periodicita.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/m1/d5/Riviste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/m1/d5/UsaCatalogo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/m1/d4/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/m1/d4/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +23,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -25,14 +32,20 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/main/java/org/example/Main.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/org/example/ProvaFile.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/org/example/m1/d4/Shop.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/org/example/m1/d5/Catalogo.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/org/example/m1/d5/DatiCartacei.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/org/example/m1/d5/Genere.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/org/example/m1/d5/Libri.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/org/example/m1/d5/Periodicita.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/org/example/m1/d5/Riviste.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/org/example/m1/d5/UsaCatalogo.java" root0="SKIP_INSPECTION" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2b7UYvlQ6OBoF3EQF8Ckcxtpb0U" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -44,8 +57,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.Catalogo.executor": "Run",
     "Application.ProvaFile.executor": "Run",
     "Application.Shop.executor": "Run",
+    "Application.UsaCatalogo.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -53,21 +68,6 @@
     "onboarding.tips.debug.path": "/Users/emanuelebarone/IdeaProjects/primo_progetto_maven/src/main/java/org/example/Main.java"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="primo_progetto_maven" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="primo_progetto_maven" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -92,23 +92,21 @@
       <option name="project" value="LOCAL" />
       <updated>1705584009791</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="esercizio w2 d4">
+      <option name="closed" value="true" />
+      <created>1705591014344</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705591014344</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="maven" />
-    <option name="LAST_COMMIT_MESSAGE" value="maven" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="esercizio w2 d4" />
+    <option name="LAST_COMMIT_MESSAGE" value="esercizio w2 d4" />
   </component>
 </project>
