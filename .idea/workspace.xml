@@ -4,16 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bf5dcac-0dfd-469c-a307-b92c4c3d7105" name="Changes" comment="esercizio w2 d4">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/m1/d5/Catalogo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/m1/d5/DatiCartacei.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/m1/d5/Genere.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/m1/d5/Libri.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/m1/d5/Periodicita.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/m1/d5/Riviste.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/m1/d5/UsaCatalogo.java" afterDir="false" />
+    <list default="true" id="7bf5dcac-0dfd-469c-a307-b92c4c3d7105" name="Changes" comment="test s2">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DAO/EventoDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DAO/PersonaDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/UsaPersonaDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/entities/Evento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/entities/Mestiere.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/entities/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/entities/TipoEvento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/entities/UsaEvento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +36,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/java/org/example/DAO/EventoDAO.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/org/example/DAO/PersonaDAO.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/org/example/ProvaFile.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/org/example/UsaPersonaDAO.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/org/example/entities/Evento.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/org/example/entities/Persona.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/org/example/entities/UsaEvento.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/org/example/m1/d4/Shop.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/org/example/m1/d5/Catalogo.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/org/example/m1/d5/DatiCartacei.java" root0="SKIP_INSPECTION" />
@@ -41,6 +51,7 @@
     <setting file="file://$PROJECT_DIR$/src/main/java/org/example/m1/d5/Periodicita.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/org/example/m1/d5/Riviste.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/org/example/m1/d5/UsaCatalogo.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -61,13 +72,25 @@
     "Application.ProvaFile.executor": "Run",
     "Application.Shop.executor": "Run",
     "Application.UsaCatalogo.executor": "Run",
+    "Application.UsaEvento.executor": "Run",
+    "Application.UsaPersonaDAO.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "/Users/emanuelebarone/IdeaProjects/primo_progetto_maven/src/main/java/org/example/Main.java"
+    "last_opened_file_path": "/Users/emanuelebarone/IdeaProjects/primo_progetto_maven/src/main/resources/META-INF",
+    "onboarding.tips.debug.path": "/Users/emanuelebarone/IdeaProjects/primo_progetto_maven/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/META-INF" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -100,13 +123,22 @@
       <option name="project" value="LOCAL" />
       <updated>1705591014344</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="test s2">
+      <option name="closed" value="true" />
+      <created>1705679136743</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1705679136743</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="maven" />
     <MESSAGE value="esercizio w2 d4" />
-    <option name="LAST_COMMIT_MESSAGE" value="esercizio w2 d4" />
+    <MESSAGE value="test s2" />
+    <option name="LAST_COMMIT_MESSAGE" value="test s2" />
   </component>
 </project>
