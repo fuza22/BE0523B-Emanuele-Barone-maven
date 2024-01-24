@@ -19,9 +19,8 @@ public class Persona2 {
     @Enumerated(EnumType.STRING)
     private Sesso sesso;
 
-    @OneToOne
-    @JoinColumn
-    private Partecipazione partecipazione;
+    @OneToMany(mappedBy = "persona2")
+    private List<Partecipazione> partecipazione;
 
     public Persona2(){}
 
@@ -31,6 +30,14 @@ public class Persona2 {
         this.email = email;
         this.data_di_nascita = data_di_nascita;
         this.sesso = sesso;
+    }
+
+    public List<Partecipazione> getPartecipazione() {
+        return partecipazione;
+    }
+
+    public void setPartecipazione(List<Partecipazione> partecipazione) {
+        this.partecipazione = partecipazione;
     }
 
     public int getId() {

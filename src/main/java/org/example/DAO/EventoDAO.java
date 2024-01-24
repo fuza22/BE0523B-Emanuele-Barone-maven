@@ -55,14 +55,5 @@ public class EventoDAO {
 
     }
 
-    public void update(Evento e) {
-        EntityTransaction et = em.getTransaction();
-
-        et.begin();
-
-        em.merge(e);
-
-        et.commit();
-    }
 
 }

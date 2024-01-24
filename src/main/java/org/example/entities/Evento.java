@@ -2,6 +2,7 @@ package org.example.entities;
 
 import javax.persistence.*;
 import java.time.LocalDate;
+import java.util.List;
 
 
 @Entity
@@ -21,11 +22,10 @@ public class Evento {
     private TipoEvento tipoEvento;
     @Column(name = "numero_massimo_partecipanti")
     private int numeroMassimoPartecipanti;
-    @OneToOne
-    @JoinColumn
-    private Partecipazione partecipazione;
+    @OneToMany(mappedBy = "evento", cascade = CascadeType.REMOVE)
+    private List<Partecipazione> partecipazione;
 
-    @OneToOne
+    @ManyToOne
     @JoinColumn
     private Location location;
 
@@ -81,8 +81,12 @@ public class Evento {
         this.numeroMassimoPartecipanti = numeroMassimoPartecipanti;
     }
 
-    public void setPartecipazione(Partecipazione partecipazione) {
+    public void setPartecipazione(List<Partecipazione> partecipazione) {
         this.partecipazione = partecipazione;
+    }
+
+    public void setLocation(Location location) {
+        this.location = location;
     }
 
     @Override

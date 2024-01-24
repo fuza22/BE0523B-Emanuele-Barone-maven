@@ -4,18 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7bf5dcac-0dfd-469c-a307-b92c4c3d7105" name="Changes" comment="compito w3 d2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DAO/LocationDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DAO/PartecipazioneDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DAO/Persona2DAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/entities/Location.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/entities/Partecipazione.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/entities/Persona2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/entities/Sesso.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/entities/Stato.java" afterDir="false" />
+    <list default="true" id="7bf5dcac-0dfd-469c-a307-b92c4c3d7105" name="Changes" comment="compito w3 d3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DAO/EventoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DAO/EventoDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entities/Evento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/entities/Evento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entities/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/entities/Location.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entities/Partecipazione.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/entities/Partecipazione.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entities/Persona2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/entities/Persona2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entities/UsaEvento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/entities/UsaEvento.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -144,7 +139,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706017532849</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="compito w3 d3">
+      <option name="closed" value="true" />
+      <created>1706110901531</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1706110901531</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -153,6 +156,7 @@
     <MESSAGE value="esercizio w2 d4" />
     <MESSAGE value="test s2" />
     <MESSAGE value="compito w3 d2" />
-    <option name="LAST_COMMIT_MESSAGE" value="compito w3 d2" />
+    <MESSAGE value="compito w3 d3" />
+    <option name="LAST_COMMIT_MESSAGE" value="compito w3 d3" />
   </component>
 </project>

@@ -17,19 +17,44 @@ public class UsaEvento {
         PartecipazioneDAO partecipazioneDao = new PartecipazioneDAO();
         Persona2DAO persona2Dao = new Persona2DAO();
 
-        Location location = new Location("Teatro Massimo", "Palermo");
-        Persona2 persona2 = new Persona2("Emanuele", "Barone","emanuele@email.it",LocalDate.of(1996,05,22), Sesso.M);
-        Evento evento = new Evento("Festazza", LocalDate.of(2024,01, 25), "Bellissima festa", TipoEvento.PRIVATO, 500,  location);
-        Partecipazione partecipazione = new Partecipazione(persona2, evento, Stato.DA_CONFERMARE);
 
-        locationDao.save(location);
-        persona2Dao.save(persona2);
-        eventoDao.save(evento);
-        partecipazioneDao.save(partecipazione);
-        evento.setPartecipazione(partecipazione);
-        eventoDao.update(evento);
+        Persona2 p1 = new Persona2();
+        p1.setNome("Emanuele");
+        p1.setCognome("Barone");
 
-        System.out.println(evento);
+        Persona2 p2 = new Persona2();
+        p2.setNome("Mauro");
+        p2.setCognome("Cassoni");
+
+        persona2Dao.save(p1);
+        persona2Dao.save(p2);
+
+        Location l1 = new Location();
+        l1.setCitta("Palermo");
+
+        locationDao.save(l1);
+
+        Evento e1 = new Evento();
+        e1.setDescrizione("Descrizione");
+        e1.setLocation(l1);
+
+        Evento e2 = new Evento();
+        e1.setDescrizione("Descrizione2");
+        e1.setLocation(l1);
+
+        eventoDao.save(e1);
+        eventoDao.save(e2);
+
+        Partecipazione part1 = new Partecipazione();
+        part1.setPersona2(p1);
+        part1.setEvento(e1);
+
+        Partecipazione part2 = new Partecipazione();
+        part2.setPersona2(p2);
+        part2.setEvento(e2);
+
+        partecipazioneDao.save(part1);
+        partecipazioneDao.save(part2);
 
     }
 
