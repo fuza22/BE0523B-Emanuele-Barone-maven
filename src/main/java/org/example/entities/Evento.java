@@ -21,13 +21,22 @@ public class Evento {
     private TipoEvento tipoEvento;
     @Column(name = "numero_massimo_partecipanti")
     private int numeroMassimoPartecipanti;
+    @OneToOne
+    @JoinColumn
+    private Partecipazione partecipazione;
 
-    public Evento(String titolo, LocalDate dataEvento, String descrizione, TipoEvento tipoEvento, int numeroMassimoPartecipanti) {
+    @OneToOne
+    @JoinColumn
+    private Location location;
+
+
+    public Evento(String titolo, LocalDate dataEvento, String descrizione, TipoEvento tipoEvento, int numeroMassimoPartecipanti, Location location) {
         this.titolo = titolo;
         this.dataEvento = dataEvento;
         this.descrizione = descrizione;
         this.tipoEvento = tipoEvento;
         this.numeroMassimoPartecipanti = numeroMassimoPartecipanti;
+        this.location = location;
     }
 
     public Evento(){}
@@ -72,6 +81,10 @@ public class Evento {
         this.numeroMassimoPartecipanti = numeroMassimoPartecipanti;
     }
 
+    public void setPartecipazione(Partecipazione partecipazione) {
+        this.partecipazione = partecipazione;
+    }
+
     @Override
     public String toString() {
         return "Evento{" +
@@ -81,6 +94,8 @@ public class Evento {
                 ", descrizione='" + descrizione + '\'' +
                 ", tipoEvento=" + tipoEvento +
                 ", numeroMassimoPartecipanti=" + numeroMassimoPartecipanti +
+                ", partecipazione=" + partecipazione +
+                ", location=" + location +
                 '}';
     }
 }

@@ -1,42 +1,42 @@
 package org.example.DAO;
 
-import org.example.entities.Evento;
+import org.example.entities.Location;
+import org.example.entities.Persona2;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.EntityTransaction;
 import javax.persistence.Persistence;
 
-public class EventoDAO {
+public class LocationDAO {
 
     private EntityManagerFactory emf;
     private EntityManager em;
 
-    public EventoDAO() {
+    public LocationDAO() {
 
         emf = Persistence.createEntityManagerFactory("gestioneeventi");
         em = emf.createEntityManager();
 
     }
 
-
-    public void save(Evento e){
+    public void save(Location l){
 
         EntityTransaction et = em.getTransaction();
 
         et.begin();
 
-        em.persist(e);
+        em.persist(l);
 
         et.commit();
 
-        em.refresh(e);
+        em.refresh(l);
 
     }
 
-    public Evento getById(int id){
+    public Location getById(int id){
 
-        return em.find(Evento.class, id);
+        return em.find(Location.class, id);
 
     }
 
@@ -46,23 +46,13 @@ public class EventoDAO {
 
         et.begin();
 
-        Evento e = getById(id);
+        Location l = getById(id);
 
-        em.remove(e);
-
-        et.commit();
-
-
-    }
-
-    public void update(Evento e) {
-        EntityTransaction et = em.getTransaction();
-
-        et.begin();
-
-        em.merge(e);
+        em.remove(l);
 
         et.commit();
+
+
     }
 
 }
