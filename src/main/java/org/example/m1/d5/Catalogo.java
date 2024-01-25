@@ -1,6 +1,5 @@
 package org.example.m1.d5;
 
-import org.apache.commons.io.FileUtils;
 
 import java.io.File;
 import java.io.IOException;
@@ -93,7 +92,7 @@ public class Catalogo {
                 })
                 .collect(Collectors.joining("#"));
 
-        FileUtils.writeStringToFile(out, stringaCatalogo, Charset.defaultCharset());
+        // FileUtils.writeStringToFile(out, stringaCatalogo, Charset.defaultCharset());
     }
 
 

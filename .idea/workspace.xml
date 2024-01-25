@@ -5,13 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7bf5dcac-0dfd-469c-a307-b92c4c3d7105" name="Changes" comment="compito w3 d3">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/m1/w3/d4/entities/Concerto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/m1/w3/d4/entities/GaraDiAtletica.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/m1/w3/d4/entities/Genere.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/m1/w3/d4/entities/PartitaDiCalcio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DAO/EventoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DAO/EventoDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DAO/LocationDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DAO/LocationDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DAO/PartecipazioneDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DAO/PartecipazioneDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DAO/Persona2DAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DAO/Persona2DAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DAO/PersonaDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/DAO/PersonaDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ProvaFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ProvaFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entities/Evento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/entities/Evento.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entities/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/entities/Location.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entities/Partecipazione.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/entities/Partecipazione.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entities/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/entities/Persona.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entities/Persona2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/entities/Persona2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/entities/UsaEvento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/entities/UsaEvento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/m1/d5/Catalogo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/m1/d5/Catalogo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +34,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -51,6 +64,9 @@
     <setting file="file://$PROJECT_DIR$/src/main/java/org/example/m1/d5/Periodicita.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/org/example/m1/d5/Riviste.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/org/example/m1/d5/UsaCatalogo.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/org/example/m1/w3/d4/entities/Concerto.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/org/example/m1/w3/d4/entities/GaraDiAtletica.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/org/example/m1/w3/d4/entities/PartitaDiCalcio.java" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" root0="SKIP_INSPECTION" />
   </component>
   <component name="ProjectColorInfo">{
@@ -147,7 +163,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706110901531</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="compito w3 d3">
+      <option name="closed" value="true" />
+      <created>1706117180493</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1706117180493</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
